@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Assignment 1</title>
+</head>
+<body style="background: #FBFBFB;">
+    <header class="header">
+            <span style="margin: 10px;"> 
+                <a href="" id="logo"> e! </a>
+            </span>
+            <span> 
+                <a href="" class="nav-design" id="login">Login</a> 
+            </span>
+            <span>
+                <a href="" class="nav-design" id="dotted-createanacc">Create an account</a>
+            </span>
+    </header>
+
+    <main>
+        <section>            
+            <div id="sec-title">Breakfast Places in Mumbai</div>
+
+            <article id="filter-section" class="backcolor">
+                <!--FOR FILTER SECTION-->
+            <div id="filter-margin">
+                <div style="color: #192F60; font-weight:bold; font-size: 20px;">Filters</div>
+            
+                <div id="select-margin">
+                    <label for="location" style="color: #192F60;">Select Location</label>
+                    <select name="location" id="location" aria-placeholder="Select Location">
+                    <option value="Select Location" selected>Select Location</option>
+                        
+                    </select>
+                </div>
+                <br>
+                <div class=" inputcol" >
+                    <label for="" style="color: #192F60;" id="cuisine" >Cuisine</label> 
+                    <br>
+                    <br>
+                    <input type="checkbox" name="cuisine" value="North Indian" id="NorthIndian" disabled>
+                    <label for="NorthIndian">North Indian</label>
+                    <input type="checkbox" name="cuisine" value="South Indian" checked id="SouthIndian" disabled>
+                    <label for="SouthIndian">South Indian</label>
+                    <input type="checkbox" name="cuisine" value="Chinese" checked id="Chinese" disabled>
+                    <label for="Chinese">Chinese</label>
+                    <input type="checkbox" name="cuisine" value="Fast Food" id="FastFood" disabled> 
+                    <label for="FastFood">Fast Food</label>
+                    <input type="checkbox" name="cuisine" value="Street Food" id="StreetFood" disabled> 
+                    <label for="StreetFood">Street Food</label>
+                </div>
+                <br>
+                <div class="costdesign inputcol">
+
+                    <label for="" style="color: #192F60; " id="costfortwo">Cost for Two</label>
+                    <br>
+
+                    <input type="radio" name="cost" value="Lessthan500" id="Lessthan500" disabled>
+                    <label for="Lessthan500">Less than 500</label>
+
+                    <input type="radio" name="cost" value="500to1000" id="500to1000" disabled>
+                    <label for="500to1000">500 to 1000</label>
+                      
+                    <input type="radio" name="cost" value="1000to1500" id="1000to1500" disabled> 
+                    <label for="1000to1500">1000 to 1500</label>
+ 
+                    <input type="radio" name="cost" value="1500to2000" id="1500to2000" disabled>
+                    <label for="1500to2000">1500 to 2000</label>
+
+                    <input type="radio" name="cost" value="2000+" id="2000+" disabled>
+                    <label for="2000+">2000+</label>
+                </div>
+                <br>
+                <div class="sortdesign inputcol">
+                    <label for="" style="color: #192F60; font-weight:bolder; font-size: 18px;">Sort</label><br>
+
+                    <input type="radio" name="sort" value="lowtohigh" id="lowtohigh" disabled>
+                    <label for="lowtohigh">Price low to high</label>
+
+                    <input type="radio" name="sort" value="hightolow" id="hightolow" disabled>
+                    <label for="hightolow">Price high to low</label>
+    
+                </div>
+            </div>
+            </article>
+
+            <article id="shop1-section" class="backcolor"> 
+                
+                    <img src="../images/bigchilli.png" alt="Image not available" class="iimage" style="position: absolute;">        
+                    <div class="shopcontent">
+                        <span class="shopheading">The Big Chill Cakery</span>
+                        <p class="fort">FORT</p>
+                        <p class="address">Shop 1, Plot D, Samruddhi Complex,Chincholi ..</p>
+                    </div>
+                    <hr id="hr1"> 
+                    <br>
+                    <div >
+                        <span style="color: #636F88; margin-left: 40px; ">CUISINES:</span>
+                        <span style="color: #192F60; margin-left: 90px;">Bakery</span>  
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <span style="color: #636F88;margin-left: 40px; margin-top: 80px;">COST FOR TWO:</span>     
+                        <span style="color: #192F60; margin-left: 40px;">₹700</span>
+                    </div>
+                 
+
+            </article>
+
+            <article id="shop2-section" class="backcolor">  
+                    <img src="../images/bigchilli.png" alt="Image not available" class="iimage" style="position: absolute;">
+                    <div class="shopcontent">
+                    <span class="shopheading">The Bake Shop</span>
+                    <p class="fort">FORT</p>
+                    <p class="address">Shop 1, Plot D, Samruddhi Complex,Chincholi ..</p>
+                    </div>
+                    <hr id="hr2">
+                    <br>
+                    <div >
+                        <span style="color: #636F88; margin-left: 40px;">CUISINES:</span>
+                        <span style="color: #192F60; margin-left: 90px;">Bakery</span>  
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <span style="color: #636F88;margin-left: 40px; margin-top: 80px;">COST FOR TWO:</span>     
+                        <span style="color: #192F60; margin-left: 40px;">₹700</span>
+                    </div>
+
+                    </div>  
+            </article>
+
+            <div id="pageno"> 
+                <a class="pgbutton" style="border: 1px solid #8C96AB; color: #8C96AB; opacity: 0.4;"><</a>
+                <a class="pgbutton" style="background: #8C96AB; color: #FBFBFB;">1</a>
+                <a class="pgbutton">2</a>
+                <a class="pgbutton">3</a>
+                <a class="pgbutton">4</a>
+                <a class="pgbutton">5</a>
+                <a class="pgbutton">></a>
+            </div>
+        
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
